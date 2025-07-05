@@ -1,74 +1,89 @@
-<<<<<<< HEAD
-# Reelinq
-=======
-# Getting Started with Create React App
+# 🎬 ReelinQ – AI-Powered Reels & Shorts Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/haarvii/Reelinq)](https://github.com/haarvii/Reelinq/issues)
+[![GitHub forks](https://img.shields.io/github/forks/haarvii/Reelinq)](https://github.com/haarvii/Reelinq/network)
+[![GitHub stars](https://img.shields.io/github/stars/haarvii/Reelinq)](https://github.com/haarvii/Reelinq/stargazers)
 
-## Available Scripts
+**ReelinQ** is an open-source platform that transforms motivational quotes and brand messages into short-form videos like Instagram Reels and YouTube Shorts. It supports custom branding, animations, and is perfect for creators, influencers, and marketers to automate content creation.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📌 Project Status
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🚧 This project is currently under active development.  
+💡 We welcome contributions, feedback, and ideas from the community!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 Features (WIP)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✨ Branded short video generation using JSON input  
+🎞️ Animated text, logo, and social icons  
+🧩 Clean, responsive drag-and-drop UI  
+🛠️ Backend APIs for user, brand, and video management  
+🧠 Video rendering engine (Python-based)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠 Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Layer      | Technology                         |
+|------------|-------------------------------------|
+| Frontend   | React.js, Tailwind CSS              |
+| Backend    | Spring Boot, Hibernate              |
+| Database   | PostgreSQL                          |
+| Video Gen  | Python (MoviePy, PIL)               |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🧪 Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> ⚠️ Full local setup documentation coming soon. Stay tuned!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📂 Repository Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+reelinq/
+├── frontend/            # React app
+├── backend/             # Spring Boot APIs
+├── video-generator/     # Python scripts
+├── assets/              # Static content (fonts, icons, logos)
+├── data/                # JSON inputs
+├── README.md
+└── CONTRIBUTING.md
+```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🙌 How to Contribute
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Look for [open issues](https://github.com/haarvii/Reelinq/issues)
+2. Comment to get assigned
+3. Fork the repo and create a new branch (e.g., `feature/video-card-animation`)
+4. Make changes and commit
+5. Push to your fork and open a Pull Request referencing the issue
 
-### Code Splitting
+📄 See [`CONTRIBUTING.md`](CONTRIBUTING.md) for full contribution guidelines.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 💬 Questions or Suggestions?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Feel free to reach out to the project author:  
+👤 **Harsh Doshi**  
+🔗 [GitHub](https://github.com/haarvii)  
+💼 [LinkedIn](https://www.linkedin.com/in/harsh-doshi-6a02b3aa/)  
+📷 [Instagram](https://www.instagram.com/_haarvii?igsh=aWhmMzMwb2R4MzBv&utm_source=qr)
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📄 License
 
-### Advanced Configuration
+This project is licensed under the [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> master
+> Let's build together. Reels, not rules. 🎞️
