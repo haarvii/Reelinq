@@ -30,6 +30,7 @@ function App() {
           <Route path="notifications" element={<Notifications />} />
           <Route path="history" element={<History />} />
           <Route path="brands" element={<Brands />} />
+          
         </Route>
       </Routes>
     </Router>
